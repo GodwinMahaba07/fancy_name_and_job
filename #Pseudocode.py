@@ -23,11 +23,14 @@ dream_job = input("What is your dream job?: ")
 
 #print all 
 
-print("Name:", name)
-print("Age:" , age)
-print("Address:", address)
-print("Dream Job:", dream_job)
-
+print("\nYour Name:")
+print_fancy(name, "34")
+print("\nYour Age:")
+print_fancy(age, "35" )
+print("\nYour Address:")
+print_fancy(address, "36" )
+print("\nYour Dream Job:")
+print_fancy(dream_job, "32")
 #print all with fancy text
 
 
